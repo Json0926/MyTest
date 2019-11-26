@@ -1,7 +1,7 @@
 import os
 
-# path = os.getcwd()
-path = './data'
+path = os.getcwd()
+# path = './data'
 file_list = os.listdir(path)
 
 for file in file_list:
